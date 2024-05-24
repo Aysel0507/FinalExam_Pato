@@ -1,0 +1,26 @@
+header{
+    position: fixed;
+    background-color:  #D61C22;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    left: 0;
+    #navbar{
+        padding: 15px 0;
+        .navbar{
+           .nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            ul{
+                display: flex;
+                gap:25px;
+                a{
+                    font-size: 18px;
+                    color: white;
+                }
+            }
+           }
+        }
+    }
+}
